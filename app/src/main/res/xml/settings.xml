@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="browsing_category"
+        android:title="General">
+
+        <CheckBoxPreference
+            android:key="exit_val"
+            android:defaultValue="true"
+            android:title="Show Exit Dialog"
+            android:summary="Show Exit Confirmation Dialog While Quitting" />
+        <CheckBoxPreference
+            android:key="prompt_val"
+            android:defaultValue="false"
+            android:title="Do Not Show Prompt"
+            android:summary="Disable Confirming certain tasks" />
+        <CheckBoxPreference
+            android:key="show_down"
+            android:defaultValue="false"
+            android:title="Download Mode"
+            android:summary="Show Download Mode instead of Bootloader" />
+        <CheckBoxPreference
+            android:key="shell_ex"
+            android:defaultValue="true"
+            android:title="Execute Shell on Startup"
+            android:summary="Important but may Slow down App Launch" />
+
+        <Preference
+            android:title="Open App Details"
+            android:key="app_det" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="other"
+        android:title="Other">
+    <CheckBoxPreference
+        android:key="ads_val"
+        android:defaultValue="true"
+        android:title="Enable Interstitial Ads"
+        android:summary="Please Support Me" />
+
+    </PreferenceCategory>
+    <Preference
+        android:title="Changelog  &#38; Notice"
+      android:key="log" />
+    <Preference
+        android:title="Open Source"
+        android:key="ops" />
+    <Preference
+        android:title="Visit Website"
+        android:key="web_id" />
+    <Preference
+        android:title="Send An Email"
+        android:key="email" />
+
+</PreferenceScreen>

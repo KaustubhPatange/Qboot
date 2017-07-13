@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">QBoot</string>
+    <string name="action_settings">Settings</string>
+    <string name="InterstitialAds_ADBMOD">ca-app-pub-1763645001743174~3596912044</string>
+    <string name="interstitial_full_screen">ca-app-pub-1763645001743174/9503844846</string>
+    <string-array name="titles">
+        <item>Restart</item>
+        <item>Recovery</item>
+        <item>Bootloader</item>
+    </string-array>
+    <string-array name="description">
+        <item>Restart Your Phone</item>
+        <item>Restart Your Phone in Recovery</item>
+        <item>Restart Your Phone in Fastboot</item>
+    </string-array>
+</resources>
