@@ -1,4 +1,4 @@
-# Qboot
+# Qboot [![Build Status](https://travis-ci.org/KaustubhPatange/Qboot.svg?branch=master)](https://travis-ci.org/KaustubhPatange/Qboot)
 Fastest, Safest Way to Reboot Android to various Boot startegies i.e Recovery, Bootloader, Hot Reboot, Safe Reboot, Restart SystemUI, etc
 
 <a href="https://play.google.com/store/apps/details?id=com.kpstv.qboot"><img class="irc_mi aligncenter" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Get_it_on_Google_play.svg/2000px-Get_it_on_Google_play.svg.png" alt="Image result for get it from google play" width="305" height="90" /></a>
